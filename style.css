@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  color:#333;
+  background-color: #fafafa;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.navbar {
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    padding: 1rem 2rem;
+    height: 80px;
+}
+  
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: auto; 
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+/* MAIN CONTENT SECTIONS */
+section {
+  padding: 2rem 0;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem; 
+  width: 100%; 
+  padding: 2rem 1rem; 
+}
+
+.about-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-content {
+  flex: 1; 
+  max-width: 55%;
+}
+
+.about-image {
+  flex-shrink: 0; 
+  margin-left: auto;
+}
+
+.about-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+/* RESEARCH SECTION */
+.research-section {
+    padding: 1rem 0;
+}
+  
+.research-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+  
+.research-card {
+    display: flex;                  
+    align-items: flex-start;        
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;          
+    gap: 1rem;                     
+}
+  
+
+.research-logo img {
+    width: 100px;                   
+    height: 100px;
+    object-fit: contain;          
+}
+  
+
+.research-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+  
+.research-content p {
+    margin-bottom: 0.5rem;
+    color: #555;                  
+}
+  
+.research-content ul {
+    margin-left: 1.5rem;          
+    list-style: disc;               
+    line-height: 1.4;              
+}
+  
+.research-content li {
+    margin-bottom: 0.5rem;
+}
+
+h3{
+    color:mediumblue
+}
+
+
+/* PROJECTS SECTION */
+.projects-section {
+    padding: 1rem 0;
+  }
+  
+  .projects-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-card {
+    display: flex;          
+    align-items: flex-start; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;     
+    gap: 1.5rem;               /* Space between logo and text */
+  }
+  
+  .project-logo img {
+    width: 100px;    
+    height: 100px;
+    object-fit: cover; 
+  }
+  
+  .project-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .project-content p {
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .project-content ul {
+    margin-left: 1.5rem;  
+    list-style: disc;    
+    line-height: 1.4;     
+  }
+  
+  .project-content li {
+    margin-bottom: 0.5rem;
+  }
+
+/* SKILLS SECTION */
+.skills-section .skills-list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.skills-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Fun Facts SECTION */
+.facts-section .facts-list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.facts-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.facts-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* CONTACT SECTION */
+.contact-section p {
+  margin-top: 1rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  color: #666;
+  font-size: 0.9rem;
+}
