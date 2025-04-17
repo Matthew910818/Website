@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matthew He</title>
   <link rel="stylesheet" href="style.css" />
   <link
@@ -16,7 +17,7 @@
 
   <header>
     <nav class="navbar">
-      <div class="logo" style="text-align: center;">Matthew He</div>
+      <div class="logo">Matthew He</div>
       <ul class="nav-links">
         <li><a href="#research">Research</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -46,7 +47,7 @@
             &nbsp;|&nbsp;
             <a href="https://github.com/Matthew910818" target="_blank"> <strong>GitHub</strong> </a>
             &nbsp;|&nbsp;
-            <a href="https://www.linkedin.com/feed/" target="_blank"> <strong>LinkedIn</strong> </a>
+            <a href="https://www.linkedin.com/in/mao-chi-he" target="_blank"> <strong>LinkedIn</strong> </a>
           </p>
         </div>
         
@@ -64,7 +65,10 @@
         <!-- Research Card 1 -->
         <div class="research-card">
           <div class="research-logo">
-            <img src="./resources/NTHU.png" alt="Lab Logo" />
+            <video width="200" height="200" autoplay loop muted playsinline style="border-radius: 20px;">
+              <source src="./resources/industry.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
     
           <div class="research-content">
@@ -113,6 +117,19 @@
     <section id="projects" class="projects-section">
       <div class="container">
         <h2>Projects</h2>
+
+        <div class="project-card">
+          <div class="project-logo">
+            <img src="./resources/agent.png" alt="AI Medical Insurance Agent" />
+          </div>
+          <div class="project-content">
+            <h3>AI Medical Insurance Agent</h3>
+            <ul>
+              <li>Developed an AI agent to automate medical insurance claims.</li>
+              <li>Used <b>n8n, LangChain, Langgraph, Qdrant, and Groq</b> to build intelligent workflows.</li>
+            </ul>
+          </div>
+        </div>
     
         <!-- Project Card 1 -->
         <div class="project-card">
@@ -162,7 +179,7 @@
       <div class="container">
         <h2>Skills</h2>
         <ul class="skills-list">
-          <li><strong>Software:</strong> Python, C++, HTML, CSS, Flutter, NodeJS, LLMs</li>
+          <li><strong>Software:</strong> Python, C++, Langchain, Langgraph, HTML, CSS, Flutter, NodeJS, LLMs</li>
           <li><strong>Languages:</strong> Mandarin, English</li>
         </ul>
       </div>
@@ -186,7 +203,7 @@
         <h2>Contact</h2>
         <p>
           Feel free to reach out if you have any questions or collaboration
-          ideas. I’m always open to discussing new projects or opportunities!
+          ideas. I'm always open to discussing new projects or opportunities!
         </p>
       </div>
     </section>
